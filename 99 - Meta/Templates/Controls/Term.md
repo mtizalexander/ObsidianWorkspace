@@ -1,0 +1,1 @@
+<span class="term"><span class="badge">Term</span></span><span class="definition">Definition</span>

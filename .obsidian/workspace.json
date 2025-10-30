@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "7293bd127386e728",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bd6088d732815b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ad29aa6694c9ae8",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "file:///C:\\Users\\zalexander\\source\\repos\\_work\\ObsidianWorkspace/Home.html"
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian Home Hero"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf44855a91c2b76f",
+    "type": "split",
+    "children": [
+      {
+        "id": "757a13e66f4386fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4279e92eb930165f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a71699ab6622df2a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "143a20ee1a059831",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#business-terminology",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ee8242986466f14a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.5
+  },
+  "right": {
+    "id": "1cc2f5ba0e82c062",
+    "type": "split",
+    "children": [
+      {
+        "id": "b07511dae2605886",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ecc337b0b4aa319",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00 - Clients/OSBI/Legacy App/Terminology/CCH Terminology.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CCH Terminology"
+            }
+          },
+          {
+            "id": "7a1c9a3ad6b85f3d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 - Clients/OSBI/Legacy App/Terminology/CCH Terminology.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CCH Terminology"
+            }
+          },
+          {
+            "id": "250b22a7b881f559",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 - KnowledgeBase/Science/Instrumentation/LIDAR.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of LIDAR"
+            }
+          },
+          {
+            "id": "be26486b2d728c19",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 435.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "9ad29aa6694c9ae8",
+  "lastOpenFiles": [
+    "99 - Meta/Custom Styles and Components.md",
+    "Home.html",
+    "Home.md",
+    "Hero.md",
+    "Hero.html",
+    "99 - Meta/Templates/Daily Note Template.md",
+    "04 - Daily Notes/2025-10-29.md",
+    "99 - Meta/Templates/Testable Note Template.md",
+    "99 - Meta/Templates/Controls/Question_MultipleChoice.md",
+    "99 - Meta/Templates/Controls/Card.md",
+    "99 - Meta/Templates/Controls/Badge.md",
+    "99 - Meta/Images/Pasted image 20250222125545.png",
+    "Untitled Kanban.md",
+    "Drawing 2025-10-29 14.22.53.excalidraw.md",
+    "00 - Clients/OSBI/Legacy App/Terminology/CCH Terminology.md",
+    "Untitled.canvas",
+    "00 - Clients/OSBI/Legacy App/Legacy CCH App.md",
+    "2025 Goals.md",
+    "01 - KnowledgeBase/Personal Development/Corporate Survival Checklist.md",
+    "00 - Clients/OSBI/Legacy App/Integrations/RAP BACK.md",
+    "01 - KnowledgeBase/History/Meta/Analysis/Thucydides Trap.md",
+    "01 - KnowledgeBase/History/France/Events/Coup of 18-19 Brumaire.md",
+    "Dashboard.md",
+    "00 - Clients/OSBI/Legacy App/Functionality/Administrator/Administrator.md",
+    "00 - Clients/OSBI/Legacy App/Functionality/Administrator/Record Management.md",
+    "00 - Clients/OSBI/Legacy App/Functionality/Administrator/State Statutes.md",
+    "00 - Clients/OSBI/Legacy App/Functionality/Administrator/System Management.md",
+    "00 - Clients/OSBI/Legacy App/Functionality/Administrator/Rap Sheet Dissemination Log.md",
+    "00 - Clients/OSBI/Legacy App/Functionality/Search/Search.md",
+    "04 - Daily Notes/2025-10-28.md",
+    "00 - Clients/OSBI/Legacy App/Terminology/Client Terminology",
+    "00 - Clients/OSBI/Legacy App/Terminology/General Terminology",
+    "00 - Clients/OSBI/Legacy App/Functionality/Administrator/Untitled",
+    "00 - Clients/OSBI/Legacy App/Functionality/Administrator",
+    "00 - Clients/OSBI/Legacy App/Functionality/My Profile",
+    "00 - Clients/OSBI/Legacy App/Functionality/Reports",
+    "00 - Clients/OSBI/Legacy App/Functionality/ADRS",
+    "00 - Clients/OSBI/Legacy App/Functionality/Judicial",
+    "02 - Personal Projects/SG-PO/DevLogs/Screenshots/08-18-25_godot.png",
+    "02 - Personal Projects/SG-PO/DevLogs/Screenshots/08-14-25_fizz_2.jpeg",
+    "02 - Personal Projects/SG-PO/DevLogs/Screenshots/08-14-25_fizz.png",
+    "02 - Personal Projects/SG-PO/DevLogs/Screenshots/08-14-25_Fizz_0.png",
+    "02 - Personal Projects/SG-PO/DevLogs/Screenshots/08-14-25_narf.png",
+    "02 - Personal Projects/Solo Leveling/Untitled.canvas",
+    "07 - Exams/AZ-204/Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

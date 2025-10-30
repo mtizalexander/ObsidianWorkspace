@@ -1,0 +1,38 @@
+.term {
+    color: #2082a3;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.definition {
+    color: #4ac5ce;
+    font-style: italic;
+}
+term {
+    color: #2082a3;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+definition {
+    color: #4ac5ce;
+    font-style: italic;
+}
+def {
+    color: #4ac5ce;
+    font-style: italic;
+}
+
+h1 {
+    color: #548e60;
+}
+
+h2 {
+    color: #548e7e;
+}
+h3 {
+    color: #8e7554;
+}
+h4 {
+    color: #7d548e;
+}

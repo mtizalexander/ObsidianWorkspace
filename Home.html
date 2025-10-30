@@ -1,0 +1,271 @@
+<!-- Obsidian Home Hero
+     Single-file HTML snippet with CSS for embedding in Obsidian (via HTML/embed plugin or iframe).
+     - Responsive
+     - Accessible
+     - Lightweight (no external assets)
+     - Copy the whole file into an HTML note or save as a file and embed
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Obsidian Home Hero</title>
+  <style>
+    :root{
+      --bg1:#0f172a; /* slate-900 */
+      --bg2:#0b1220; /* darker */
+      --accent:#7c3aed; /* purple-600 */
+      --accent-2:#06b6d4; /* teal */
+      --glass: rgba(255,255,255,0.06);
+      --muted: rgba(255,255,255,0.6);
+      --max-width:1100px;
+      --radius:16px;
+      color-scheme: dark;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      background:linear-gradient(180deg,var(--bg1) 0%, var(--bg2) 60%);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      color:#e6eef8;
+      padding:24px;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+    }
+
+    .hero{
+      width:100%;
+      max-width:var(--max-width);
+      border-radius:calc(var(--radius) + 8px);
+      overflow:hidden;
+      box-shadow:0 8px 30px rgba(2,6,23,0.6);
+      display:grid;
+      grid-template-columns: 1fr 420px;
+      gap:0;
+      background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border:1px solid rgba(255,255,255,0.03);
+    }
+
+    /* left content */
+    .hero-main{
+      padding:48px 36px;
+      display:flex;
+      flex-direction:column;
+      gap:18px;
+      min-height:240px;
+      justify-content:center;
+    }
+
+    .eyebrow{
+      font-size:13px;
+      letter-spacing:0.08em;
+      text-transform:uppercase;
+      color:var(--muted);
+      background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      padding:6px 10px;
+      border-radius:999px;
+      width:max-content;
+    }
+
+    h1{
+      margin:0;
+      font-size:34px;
+      line-height:1.05;
+      letter-spacing:-0.01em;
+      max-width:52ch;
+    }
+
+    p.lead{
+      margin:0;
+      color:var(--muted);
+      max-width:56ch;
+      font-size:16px;
+      line-height:1.5;
+    }
+
+    .cta-row{
+      display:flex;
+      gap:12px;
+      align-items:center;
+      margin-top:8px;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding:10px 14px;
+      border-radius:12px;
+      font-weight:600;
+      text-decoration:none;
+      border:1px solid rgba(255,255,255,0.06);
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      cursor:pointer;
+    }
+
+    .btn-primary{
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      color:white;
+      box-shadow:0 6px 18px rgba(124,58,237,0.18);
+      border: none;
+    }
+
+    .btn-ghost{
+      color:var(--muted);
+      background:transparent;
+    }
+
+    /* right panel */
+    .hero-panel{
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      padding:22px;
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+      align-items:flex-start;
+      justify-content:center;
+      border-left:1px solid rgba(255,255,255,0.02);
+      min-width:260px;
+    }
+
+    .panel-card{
+      width:100%;
+      background:var(--glass);
+      padding:14px;
+      border-radius:12px;
+      border:1px solid rgba(255,255,255,0.03);
+    }
+
+    .meta-row{
+      display:flex;
+      gap:10px;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .small{
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    .tags{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+    }
+
+    .tag{padding:6px 8px;border-radius:999px;font-size:13px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.02)}
+
+    /* subtle decorative diagonal */
+    .hero::after{
+      content:'';
+      position:absolute;
+      pointer-events:none;
+      width:600px;height:600px;
+      right:calc(50% - var(--max-width)/2 - 120px);
+      top:-80px;
+      background:radial-gradient(circle at 30% 20%, rgba(124,58,237,0.12), transparent 20%), radial-gradient(circle at 70% 80%, rgba(6,182,212,0.08), transparent 18%);
+      transform:rotate(12deg);
+      filter:blur(36px);
+      opacity:0.8;
+    }
+
+    /* responsive */
+    @media (max-width:1000px){
+      .hero{grid-template-columns:1fr;}
+      .hero::after{display:none}
+      .hero-panel{order:2;padding:18px}
+      .hero-main{padding:28px}
+      h1{font-size:28px}
+    }
+
+    @media (max-width:520px){
+      body{padding:16px}
+      h1{font-size:22px}
+      .hero{border-radius:12px}
+      .cta-row{flex-direction:column;align-items:flex-start}
+      .hero-panel{padding:14px}
+    }
+
+    /* utility */
+    .muted{color:var(--muted)}
+    .kbd{background:rgba(0,0,0,0.25);padding:4px 8px;border-radius:6px;font-family:monospace;font-size:13px}
+  </style>
+</head>
+<body>
+  <section class="hero" role="region" aria-label="Home hero">
+    <div class="hero-main">
+      <div class="eyebrow">Welcome</div>
+      <h1 id="hero-heading">Welcome to Zach's Extravagant Obsidian Workspace Template</h1>
+      <p class="lead">This home page is a place for you to put your most-used links, daily note shortcut, and quick context here so you always start in the right place.</p>
+    
+      <div class="cta-row" role="group" aria-label="Primary actions">
+        <a href="#" class="btn btn-primary">GitHub</a>
+      </div>
+      
+      <div style="margin-top:6px;display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+        <span class="small">Today</span>
+        <span class="kbd" id="today">—</span>
+        <span class="small muted">Quick command</span>
+        <span class="tag">Ctrl+P</span>
+      </div>
+    </div>
+
+    <aside class="hero-panel" aria-label="Quick links and context">
+      <div class="panel-card">
+        <div class="meta-row">
+          <div>
+            <div class="small">Obsidian Documentation</div>
+            <div style="margin-top:8px;display:flex;flex-direction:column;gap:8px">
+              <a href="https://help.obsidian.md/plugins/daily-notes" target="_blank" class="small" style="text-decoration:none;color:inherit">• Daily Notes</a>
+              <a href="https://help.obsidian.md/callouts" target="_blank" class="small" style="text-decoration:none;color:inherit">• Callouts</a>
+              <a href="https://blacksmithgu.github.io/obsidian-dataview" target="_blank" class="small" style="text-decoration:none;color:inherit">• DataView</a>
+              <a href="https://help.obsidian.md/bases" target="_blank" class="small" style="text-decoration:none;color:inherit">• Bases</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="panel-card">
+        <div class="meta-row">
+          <div>
+            <div class="small">Helpful Hotkeys</div>
+            <div style="margin-top:8px;display:flex;flex-direction:column;gap:8px">
+                <div style="margin-top:0px;display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+                    <span class="small muted">Browse Commands</span>
+                    <span class="tag">Ctrl+P</span>
+                </div>
+                <div style="margin-top:0px;display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+                    <span class="small muted">Browse Templates</span>
+                    <span class="tag">Alt+E</span>
+                </div>
+                <div style="margin-top:0px;display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+                    <span class="small muted">Toggle Edit Mode</span>
+                    <span class="tag">Ctrl+E</span>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </aside>
+  </section>
+
+  <script>
+    // Small helper to populate today's date in a concise format
+    (function(){
+      const el = document.getElementById('today');
+      const d = new Date();
+      const opts = { weekday: 'short', month: 'short', day: 'numeric' };
+      if(el) el.textContent = d.toLocaleDateString(undefined, opts);
+    })();
+  </script>
+</body>
+</html>

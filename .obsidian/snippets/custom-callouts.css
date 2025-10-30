@@ -1,0 +1,60 @@
+/* Lucide is the icon library used by Obsidian */
+/* https://lucide.dev/ */
+
+.callout[data-callout="improvement"] {
+  --callout-color: 100, 255, 145;
+  --callout-icon: lucide-flask-conical !important;
+  --callout-title-color: rgb(171, 199, 188);
+}
+
+
+.callout[data-callout="caveat"] {
+  --callout-color: 199, 43, 43;
+  --callout-icon: lucide-asterisk !important;
+  --callout-title-color: rgb(185, 151, 156);
+}
+
+/* Daily Notes callouts */
+
+.callout[data-callout="intention"] {
+  --callout-color: 45, 88, 180;
+  --callout-icon: lucide-brain !important;
+  --callout-title-color: rgb(163, 182, 221);
+}
+
+.callout[data-callout="reflect"] {
+  --callout-color: 28, 192, 96;
+  --callout-icon: lucide-message-circle-heart !important;
+  --callout-title-color: rgb(178, 230, 199);
+}
+
+.callout[data-callout="health"] {
+  --callout-color: 199, 43, 43;
+  --callout-icon: lucide-activity !important;
+  --callout-title-color: rgb(185, 151, 156);
+}
+
+.callout[data-callout="food"] {
+  --callout-color: 151, 21, 190;
+  --callout-icon: lucide-utensils-crossed !important;
+  --callout-title-color: rgb(213, 180, 223);
+}
+
+/* Agile callouts */
+.callout[data-callout="story"] {
+  --callout-color: 35, 173, 197;
+  --callout-icon: lucide-user !important;
+  --callout-title-color: rgb(179, 219, 213);
+}
+
+.callout[data-callout="epic"] {
+  --callout-color: 112, 18, 167;
+  --callout-icon: lucide-zap !important;
+  --callout-title-color: rgb(195, 164, 199);
+}
+
+.callout[data-callout="bug"] {
+  --callout-color: 228, 88, 23;
+  --callout-icon: lucide-bug !important;
+  --callout-title-color: rgb(224, 186, 127);
+}

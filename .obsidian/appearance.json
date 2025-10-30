@@ -1,0 +1,15 @@
+{
+  "accentColor": "#4cbfd6",
+  "enabledCssSnippets": [
+    "vocab-component",
+    "side-bar",
+    "custom-elements",
+    "custom-callouts"
+  ],
+  "baseFontSize": 14,
+  "theme": "obsidian",
+  "cssTheme": "Atom",
+  "interfaceFontFamily": "JetBrains Mono NL",
+  "textFontFamily": "JetBrains Mono NL",
+  "monospaceFontFamily": "JetBrains Mono NL"
+}
