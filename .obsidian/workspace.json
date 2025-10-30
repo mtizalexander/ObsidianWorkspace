@@ -11,12 +11,14 @@
             "id": "817f9288e0ecda63",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "file:///C:\\Users\\zalexander\\source\\repos\\_work\\ObsidianWorkspace/Home.html"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Home Hero"
+              "title": "README"
             }
           }
         ]
