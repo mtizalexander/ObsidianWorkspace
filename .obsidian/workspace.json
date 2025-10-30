@@ -11,15 +11,30 @@
             "id": "9ad29aa6694c9ae8",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "file:///C:\\Users\\zalexander\\source\\repos\\_work\\ObsidianWorkspace/Home.html"
+                "file": "04 - Daily Notes/Daily Notes.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Home Hero"
+              "title": "Daily Notes"
+            }
+          },
+          {
+            "id": "3c079e9b23070e7c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "05 - Drawings/Drawing 2025-10-29 23.45.33.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-29 23.45.33.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,8 +197,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "9ad29aa6694c9ae8",
+  "active": "3c079e9b23070e7c",
   "lastOpenFiles": [
+    "04 - Daily Notes/Daily Notes.md",
+    "05 - Drawings/Drawing 2025-10-29 23.45.33.excalidraw.md",
+    "03 - Books/Books.md",
+    "02 - Personal Projects/Personal Projects.md",
+    "01 - KnowledgeBase/KnowledgeBase.md",
+    "00 - Clients/Clients.md",
     "99 - Meta/Custom Styles and Components.md",
     "Home.html",
     "Home.md",
@@ -208,12 +229,6 @@
     "01 - KnowledgeBase/History/France/Events/Coup of 18-19 Brumaire.md",
     "Dashboard.md",
     "00 - Clients/OSBI/Legacy App/Functionality/Administrator/Administrator.md",
-    "00 - Clients/OSBI/Legacy App/Functionality/Administrator/Record Management.md",
-    "00 - Clients/OSBI/Legacy App/Functionality/Administrator/State Statutes.md",
-    "00 - Clients/OSBI/Legacy App/Functionality/Administrator/System Management.md",
-    "00 - Clients/OSBI/Legacy App/Functionality/Administrator/Rap Sheet Dissemination Log.md",
-    "00 - Clients/OSBI/Legacy App/Functionality/Search/Search.md",
-    "04 - Daily Notes/2025-10-28.md",
     "00 - Clients/OSBI/Legacy App/Terminology/Client Terminology",
     "00 - Clients/OSBI/Legacy App/Terminology/General Terminology",
     "00 - Clients/OSBI/Legacy App/Functionality/Administrator/Untitled",

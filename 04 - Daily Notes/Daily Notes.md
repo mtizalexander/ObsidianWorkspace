@@ -1,0 +1,1 @@
+When Daily Notes get generated, they will go here.

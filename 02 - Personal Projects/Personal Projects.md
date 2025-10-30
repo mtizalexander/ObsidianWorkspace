@@ -1,0 +1,1 @@
+Personal Projects go here. This workspace comes with a Kanban board plugin.
