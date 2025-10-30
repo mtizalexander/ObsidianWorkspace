@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4b8def82acbac5d9",
+            "id": "817f9288e0ecda63",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
@@ -182,10 +182,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "4b8def82acbac5d9",
+  "active": "817f9288e0ecda63",
   "lastOpenFiles": [
-    "README.md.md",
+    "99 - Meta/Custom Styles and Components.md",
     "README.md",
+    "README.md.md",
     "99 - Meta/Images/Home.png",
     "04 - Daily Notes/Daily Notes.md",
     "05 - Drawings/Drawing 2025-10-29 23.45.33.excalidraw.md",
@@ -193,7 +194,6 @@
     "02 - Personal Projects/Personal Projects.md",
     "01 - KnowledgeBase/KnowledgeBase.md",
     "00 - Clients/Clients.md",
-    "99 - Meta/Custom Styles and Components.md",
     "Home.html",
     "Home.md",
     "Hero.md",
