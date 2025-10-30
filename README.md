@@ -1,0 +1,1 @@
+This project is a starter template for an Obsidian Vault. It provides pre-configured templates, styles, and plugins.
